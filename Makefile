@@ -15,3 +15,6 @@ start-django:
 
 compile-react:
 		npm run build
+
+watch-react:
+		npm run watch
