@@ -2,9 +2,10 @@
   "name": "django-react-webpack-example",
   "version": "0.0.1",
   "description": "Django + React using webpack example",
-  "main": "assets/js/index.js",
+  "main": "apps/static/js/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack --config webpack.config.js --progress --colors"
   },
   "repository": {
     "type": "git",
