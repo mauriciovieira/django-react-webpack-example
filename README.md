@@ -3,10 +3,11 @@
 Example of a Django + React setup using webpack.
 ## Requirements
 
-- node > 8.0.0
-- npm > 5.0.0
+- node > 8
+- npm > 5
 - mkvirtualenv
 - python > 3.6
+- postgresql > 9
 
 ## Setup 
 
@@ -23,6 +24,11 @@ mkvirtualenv django-react-webpack-example -p python3
 pip install -r requirements.txt
 ```
 
+### database
+
+```
+make db
+```
 
 ## Resources
 
