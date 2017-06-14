@@ -34,3 +34,11 @@ make db
 
 - [Gist by Belgabor](https://gist.github.com/Belgabor/130e7770575e74581b67597fcb61717e)
 - [Using React with Django, with a little help from webpack](http://geezhawk.github.io/using-react-with-django-rest-framework)
+
+
+## Author
+
+**Mauricio Vieira (mauriciovieira)**
++ <http://mauriciovieira.net>
++ <https://twitter.com/mauriciovieira>
++ <https://github.com/mauriciovieira>
