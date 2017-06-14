@@ -1,5 +1,5 @@
 var React = require('react')
 var ReactDOM = require('react-dom')
-var App = require('./app')
+var BooksList = require('./books-list')
 
-ReactDOM.render(<App/>, document.getElementById('container'))
+ReactDOM.render(<BooksList url='/api/' pollInterval={1000}/>, document.getElementById('container'))
