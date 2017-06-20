@@ -25,7 +25,7 @@ test-django:
 	DJANGO_SETTINGS_MODULE=config.settings.testing python manage.py test
 
 start-django:
-	DJANGO_SETTINGS_MODULE=config.settings.local python manage.py runserver 8001
+	DJANGO_SETTINGS_MODULE=config.settings.local scripts/start.sh
 
 compile-react:
 	npm run build
