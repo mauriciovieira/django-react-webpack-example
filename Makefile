@@ -1,3 +1,6 @@
+install-testing:
+	pip install -r requirements/testing.txt
+
 install-local:
 	pip install -r requirements/local.txt
 
